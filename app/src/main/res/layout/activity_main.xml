@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/bgimageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="fitEnd"
+        android:src="@drawable/bg_1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffffff"
+        android:baselineAlignBottom="false" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aboutButton"
+        android:src="@drawable/action_about"
+        android:tint="#7f000000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@null" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="#7f000000"
+
+        android:gravity="center"
+        android:padding="3dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/dolan_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="none"
+            android:nestedScrollingEnabled="true"
+            android:textColor="#ffffffff"
+            android:text="@string/default_dolan_text"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_centerHorizontal="true"
+            android:padding="3dp"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_hint_text"
+        android:id="@+id/hint_text"
+        android:autoText="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal"
+        android:background="#7f000000"
+        android:textColor="#ffffff"
+        android:paddingBottom="3dp"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#7f000000"
+        android:padding="3dp"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/english_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elegantTextHeight="true"
+            android:ellipsize="end"
+            android:enabled="true"
+            android:lines="1"
+            android:nestedScrollingEnabled="true"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColorHint="#ffffffff"
+            android:textColor="#ffffffff"
+            android:hint="@string/default_english_text" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

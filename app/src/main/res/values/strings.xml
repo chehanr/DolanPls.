@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dolan Pls.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_about">About</string>
+    <string name="default_dolan_text">Dolan pls.</string>
+    <string name="default_english_text">Please enter English here.</string>
+    <string name="default_hint_text">Press to copy, long press to play</string>
+
+    <string name="author_name">chehanr</string>
+    <string name="github">Github</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="twitter">Twitter</string>
+
+    <string name="licence">Dolan translator based on Miroojin Bakshi\'s repo @ github. \n \nThis app uses open-source libraries such as, \nGson</string>
+
+
+
+</resources>
