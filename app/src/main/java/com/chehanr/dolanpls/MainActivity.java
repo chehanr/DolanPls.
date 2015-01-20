@@ -92,8 +92,7 @@ public class MainActivity extends Activity {
             @Override
             public boolean onLongClick(View v) {
                 // TODO Auto-generated method stub
-                Toast.makeText(getBaseContext(), "Long clicked.", Toast.LENGTH_SHORT).show();
-
+                //Toast.makeText(getBaseContext(), "Long clicked.", Toast.LENGTH_SHORT).show();
                 hintText.setVisibility(View.GONE);//clears the hint text
                 return true;
 

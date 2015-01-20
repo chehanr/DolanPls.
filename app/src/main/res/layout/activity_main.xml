@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/aboutButton"
         android:src="@drawable/action_about"
-        android:tint="#7f000000"
+        android:tint="#ff000000"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -66,7 +66,6 @@
         android:layout_height="wrap_content"
         android:text="@string/default_hint_text"
         android:id="@+id/hint_text"
-        android:autoText="true"
         android:layout_below="@+id/linearLayout1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -74,7 +73,8 @@
         android:background="#7f000000"
         android:textColor="#ffffff"
         android:paddingBottom="3dp"
-        android:textSize="15dp" />
+        android:textSize="15dp"
+        android:enabled="false" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
